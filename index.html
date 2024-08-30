@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V5-Bootstrap</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e23da33a86.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="bg-color col-sm-12 pb-5">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-5 text-white">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="header-btn pl-2 px-4 text-white rounded" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <section class="d-flex justify-content-center">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 align-self-center hero-left">
+                <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-white fw-bold">Honda CBR 300R</h1>
+                <p class="text-white fw-light hero-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor 
+                    do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <button class="btn btn-danger px-5 py-2">Purchase</button>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 hero-right">
+                <img src="./images/slider/bike3.png" class="w-100" alt="bike picture">
+            </div>
+        </section>
+    </header>
+    <!-- Fetured section -->
+    <main>
+        <section class="my-5">
+            <div class="text-center">
+                <h1 class="fw-semibold fetured-title">Fetured Bikes In This Year</h1>
+                <p class="fw-semibold feature-description">Best bike collection</p>
+                <hr class="mx-auto feature-underline">
+            </div>
+            <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-evenly feature-bike">
+                <div class="">
+                    <img src="./images/others/feature-bike.png" class="bw-image img-fluid w-100 alt="" srcset="">
+                </div>
+                <div class="">
+                    <img src="./images/others/feature-bike.png" class="img-fluid w-100 alt="" srcset="">
+                </div>
+                <div class="">
+                    <img src="./images/others/feature-bike.png" class="bw-image img-fluid w-100 alt="" srcset="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- latest section -->
+    <section class="row d-flex justify-content-center my-5 latest-container">
+        <div class="text-center">
+          <h2 class="fw-semibold latest-title">Latest News</h2>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="./images/others/latest1.png" class="card-img-top mt-2" alt="...">
+            <div class="card-body latest-margin-left">
+                <h5 class="card-title fw-semibold">Ducati XDIAVEL S-73</h5>
+                <p class="card-text latest-width fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <button class="latest-btn text-white fw-medium rounded" type="submit">Read More</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="./images/others/latest2.png" class="card-img-top mt-2" alt="...">
+            <div class="card-body latest-margin-left">
+                <h5 class="card-title fw-semibold">Motorcycles & Scooters</h5>
+                <p class="card-text latest-width fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <a href="#" class="btn btn-outline-danger btn-lg mt-2">Read More</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="./images/others/latest3.png" class="card-img-top img-fiuid mt-2" alt="...">
+            <div class="card-body latest-margin-left">
+                <h5 class="card-title fw-semibold">2021 Honda CBR500R</h5>
+                <p class="card-text latest-width fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <a href="#" class="btn btn-outline-danger bg-opacity-25 btn-lg mt-2">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Happy section -->
+    <section class="my-5">
+        <h1 class="text-center fw-bold happy-title">Happy Clients says</h1>
+        <div class="row row-cols-1 row-cols-md-3 happy-container my-4 justify-content-center">
+            <div class="card text-center col" style="width: 323px; height: 478px;">
+                <img src="./images/others/user-1.png" class="card-img-top img-fluid mx-auto mt-4" style="width: 149px; height: 149px" alt="...">
+                <div class="card-body">
+                    <p class="card-text happy-description">
+                        Slate helps you see how many more days you need to work to reach
+                        your financial goal for the month and year.
+                    </p>
+                    <div class="">
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-regular fa-star" style="color: #e77c40"></i>
+                    </div>
+                    <h5 class="text-info my-3">Regina Miles</h5>
+                    <h6>Banker</h6>
+                </div>
+            </div>
+            <div class="card text-center col" style="width: 323px;">
+                <img src="./images/others/user-2.png" class="card-img-top img-fluid mx-auto mt-4" style="width: 149px; height: 149px" alt="...">
+                <div class="card-body">
+                    <p class="card-text happy-description">
+                        Slate helps you see how many more days you need to work to reach
+                        your financial goal for the month and year.
+                    </p>
+                    <div class="">
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-regular fa-star" style="color: #e77c40"></i>
+                    </div>
+                    <h5 class="text-info my-3">Regina Miles</h5>
+                    <h6>Banker</h6>
+                </div>
+            </div>
+            <div class="card text-center col" style="width: 323px">
+                <img src="./images/others/user-3.png" class="card-img-top img-fluid mx-auto mt-4" style="width: 149px; height: 149px" alt="...">
+                <div class="card-body">
+                    <p class="card-text happy-description">
+                        Slate helps you see how many more days you need to work to reach
+                        your financial goal for the month and year.
+                    </p>
+                    <div class="">
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-solid fa-star" style="color: #e77c40"></i>
+                        <i class="fa-regular fa-star" style="color: #e77c40"></i>
+                    </div>
+                    <h5 class="text-info my-3">Regina Miles</h5>
+                    <h6 class="fw-semibold">Banker</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Frequently section -->
+    <section class="col-12">
+        <div class="text-center">
+            <h1 class="frequentiy-title fw-semibold">Frequently Asked <span>Questions</span></h1>
+        </div>
+        <div class="row d-flex justify-content-around g-4">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img src="./images/others/faq.png" class="w-50 frequentiy-img" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-inline-block rounded">
+                <div class="border-width rounded">
+                    <h3 class="fw-medium card-title">What are the most important things I shouldknow about riding a bike?</h3>
+                    <p class="frequently-width card-description">
+                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                    </p>
+                </div>
+                <div class="border-width mt-3 rounded py-2">
+                    <h3 class="border-subtitle fw-medium align-items-center">How can I tell if my helmet is old and I need a new one?</h3>
+                </div>
+                <div class="border-width mt-3 rounded py-2">
+                    <h3 class="border-subtitle fw-medium">My bike has been in storage is it safe to ride?</h3>
+                </div>
+                <div class="border-width mt-3 rounded py-2">
+                    <h3 class="border-subtitle fw-medium">What rules should I follow when riding my bike?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer setion -->
+    <footer class="row d-flex justify-content-around bg-black py-5 mx-4 my-4 rounded">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding-left: 165px;">  
+            <p class="fs-6 fw-normal text-top">Download Now<span class="mx-3">License</span></p>
+            <ul class="d-flex g-4 text-decoration"> 
+                <li><a href="">About</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+            <p class="text-bottom">© 2020 bike. All rights reserved</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding-right: 160px; width: 290px; color: #D9DBE1;">
+            <p class="right-top-text">Get the App</p>
+            <img src="./images/others/ios.png" class="footer-img" alt="">
+            <img src="./images/others/ios.png" class="footer-img mt-3" alt="">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
