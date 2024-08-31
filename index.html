@@ -40,7 +40,7 @@
         <!-- hero section -->
         <section class="d-flex justify-content-center">
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 align-self-center hero-left">
-                <p class="text-white hero-description">Computer-controlled digital transistorized with electronic advance</p>
+                <p class="text-white hero-description fw-light">Computer-controlled digital transistorized with electronic advance</p>
                 <h1 class="text-white fw-bold">Honda CBR 300R</h1>
                 <p class="fw-light hero-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor 
                     do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -48,7 +48,7 @@
                 <button class="text-white rounded px-5 py-2 hero-btn">Purchase</button>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 hero-right">
-                <img src="./images/slider/bike3.png" class="hero-bike" alt="bike picture">
+                <img src="./images/others/hero.png" class="hero-bike" alt="bike picture">
             </div>
         </section>
     </header>
@@ -91,7 +91,7 @@
             <div class="card-body latest-margin-left">
                 <h5 class="card-title fw-semibold">Motorcycles & Scooters</h5>
                 <p class="card-text latest-width fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                <button class="latest-btn text-white fw-medium rounded btn-outline" type="submit">Read More</button>
+                <button class="latest-btn-outline fw-medium rounded" type="submit">Read More</button>
             </div>
         </div>
         <div class="card" style="width: 20rem;">
@@ -99,13 +99,13 @@
             <div class="card-body latest-margin-left">
                 <h5 class="card-title fw-semibold">2021 Honda CBR500R</h5>
                 <p class="card-text latest-width fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                <button class="latest-btn text-white fw-medium rounded btn-outline" type="submit">Read More</button>
+                <button class="latest-btn-outline fw-medium rounded" type="submit">Read More</button>
             </div>
         </div>
     </section>
     <!-- Happy section -->
     <section class="my-5">
-        <h1 class="text-center fw-bold happy-title">Happy Clients says</h1>
+        <h1 class="fw-bold text-center happy-title">Happy <span class="text-orange">Clients says</span></h1>
         <div class="row row-cols-1 row-cols-md-3 happy-container my-4 justify-content-center">
             <div class="card text-center col" style="width: 323px; height: 478px;">
                 <img src="./images/others/user-1.png" class="card-img-top img-fluid mx-auto mt-4" style="width: 149px; height: 149px" alt="...">
@@ -164,35 +164,99 @@
         </div>
     </section>
     <!-- Frequently section -->
-    <section class="col-12">
-        <div class="text-center">
-            <h1 class="frequentiy-title fw-semibold">Frequently Asked <span>Questions</span></h1>
+    <section class="my-5">
+        <div class="">
+            <h1 class="text-center fw-bold">Frequently Asked <span class="text-orange">Questions</span></h1>
         </div>
-        <div class="row d-flex justify-content-around g-4 frequently-contain">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <img src="./images/others/faq.png" class="w-50 frequentiy-img" alt="">
+        <div class="d-flex flex-column flex-md-row p-3 gap-5 p-md-5">
+            <div class="col">
+                <img src="./images/others/Frame.png" class="img-fluid frequentiy-img" alt="" />
             </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-inline-block rounded">
-                <div class="border-width rounded">
-                    <h3 class="fw-medium card-title">What are the most important things I shouldknow about riding a bike?</h3>
-                    <p class="frequently-width card-description">
-                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
-                    </p>
-                </div>
-                <div class="border-width mt-3 rounded py-2">
-                    <h3 class="border-subtitle fw-medium align-items-center">How can I tell if my helmet is old and I need a new one?</h3>
-                </div>
-                <div class="border-width mt-3 rounded py-2">
-                    <h3 class="border-subtitle fw-medium">My bike has been in storage is it safe to ride?</h3>
-                </div>
-                <div class="border-width mt-3 rounded py-2">
-                    <h3 class="border-subtitle fw-medium">What rules should I follow when riding my bike?</h3>
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should know about riding a bike?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Safety First! Always obey the rules of the road. 
+                                    Obey all traffic signals, signs, and laws. Get 
+                                    in the mindset of “driving” your bike—not just 
+                                    “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I tell if my helmet is old and I need a new one?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong>
+                                It is hidden by default, until the collapse plugin adds the
+                                appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the
+                                showing and hiding via CSS transitions. You can modify any
+                                of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go
+                                within the <code>.accordion-body</code>, though the
+                                transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It
+                                is hidden by default, until the collapse plugin adds the
+                                appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the
+                                showing and hiding via CSS transitions. You can modify any
+                                of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go
+                                within the accordion-body though the
+                                transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What rules should I follow when riding my bike?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It
+                                is hidden by default, until the collapse plugin adds the
+                                appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the
+                                showing and hiding via CSS transitions. You can modify any
+                                of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go
+                                within the accordion-body though the
+                                transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- footer setion -->
-    <footer class="d-flex justify-content-around bg-black py-5 mt-5 footer-container">
+    <footer class="row d-flex justify-content-around bg-black py-5 mt-5 footer-container">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 footer-left">  
             <p class="fs-6 fw-normal text-top">Download Now<span class="mx-3">License</span></p>
             <ul class="d-flex text-decoration"> 
@@ -203,7 +267,7 @@
                 <li><a href="">Help</a></li>
                 <li><a href="">Privacy Policy</a></li>
             </ul>
-            <p class="text-bottom">© 2020 bike. All rights reserved</p>
+            <p class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-bottom">© 2020 bike. All rights reserved</p>
         </div>
         <div class="footer-right">
             <p class="right-top-text">Get the App</p>
