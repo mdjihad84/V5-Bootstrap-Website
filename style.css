@@ -3,7 +3,11 @@
     font-family: 'poppins';
     src: url('./font/Poppins-ExtraBold.ttf');
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 /* header section */
 .bg-color {
     background-color: #264653;
@@ -91,7 +95,7 @@
     text-decoration: none;
     background-color: #E76F51;
 }
-
+    
 /* happpy section */
 .happy-container  {
     gap: 43px;
@@ -158,7 +162,7 @@
 .text-decoration {
     display: flex !important;
     gap: 10px;
-    margin-left: 0px;
+    margin-left: -30px;
 }
 .list-none {
     display: inline-block;
@@ -184,7 +188,6 @@
     padding-left: 165px;
 }
 .footer-right {
-    padding-right: 160px; 
     width: 290px;
     color: #D9DBE1;
 }
@@ -201,8 +204,8 @@
         width: 296px;
     }
     .hero-bike {
-        width: 375px;
-        margin-left: 20px;
+        width: 325px;
+        margin-left: 0px;
     }
     .hero-left {
         padding-left: 25px;
@@ -218,12 +221,12 @@
 
     /* feature section */
     .fetured-title {
-        font-size: 32px;
+        font-size: 26px;
         margin-top: 65px;
     }
     .feature-bike {
         padding-right: 0px;
-        padding-left: 65px;
+        padding-left: 34px;
         margin-top: 80px;
         gap: 120px;
         margin-right: 0px;
@@ -247,21 +250,22 @@
     }
     .card {
         width: 20rem;
-        margin-left: 55px;
+        margin-left: 37px;
     }
 
     /*frequently section  */
     .frequently-contain {
-        padding-left: 38px;
+        padding-left: 18px;
     }
     .frequentiy-title {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 75px;
         margin-bottom: 65px;
         margin-left: 0px;
     }
     .frequentiy-img {
-        margin-left: 75px;
+        margin-left: 78px;
+        margin-bottom: 30px;
     }
     .frequently-width {
         width: 315px;
@@ -271,8 +275,11 @@
         padding-left: 15px;
         border: 1px solid #D5E5FB;
     }
-    
+
     /* footer section */
+    .footer-container {
+        flex-direction: column;
+    }
     .footer-left {
         padding-left: 25px;
     }
