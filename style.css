@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: 'poppins';
+    src: url('./font/Poppins-ExtraBold.ttf');
+}
 
 /* header section */
 .bg-color {
@@ -25,17 +29,26 @@
 .hero-left {
     padding-left: 156px;
 }
+.hero-width{
+    width: 455px;
+    color: #E0E0E0;
+}
 .hero-right {
     padding-right: 183px;
-    margin-top: 156px;
+    margin-top: 50px;
 }
-.hero-description {
-    margin-top: 121px;
+.hero-btn {
+    background-color: #E76F51;
+    border: none;
+}
+.hero-bike {
+    width: 100%;
 }
 
 /*  fetured section */
 .fetured-title {
     font-size: 48px;
+    margin-top: 64px;
 }
 .feature-description {
     font-size: 14px;
@@ -54,8 +67,8 @@
     padding-left: 156px;
     margin-top: 100px;
     gap: 108px;
-
 }
+
 /* latest section */
 .latest-container {
     gap: 20px;
@@ -74,6 +87,7 @@
     width: 160px;
     height: 57px;
     border: none;
+    font-size: 18px;
     text-decoration: none;
     background-color: #E76F51;
 }
@@ -93,6 +107,9 @@
 }
 
 /* frequently section */
+.frequently-contain {
+    margin-left: 20px;
+}
 .frequentiy-title {
     font-size: 48px;
     margin-top: 130px;
@@ -118,7 +135,6 @@
 .border-subtitle {
     font-size: 20px;
     color: #383838;
-
 }
 .frequently-width {
     width: 445px;
@@ -131,6 +147,7 @@
     padding-left: 15px;
     border: 1px solid #D5E5FB;
 }
+
 /* footer section */
 .footer-left {
     padding-left: 165px;
@@ -141,7 +158,7 @@
 .text-decoration {
     display: flex !important;
     gap: 10px;
-    margin-left: -32px;
+    margin-left: 0px;
 }
 .list-none {
     display: inline-block;
@@ -162,4 +179,101 @@
 }
 .right-top-text {
     color: #D5E5FB;
+}
+.footer-left {
+    padding-left: 165px;
+}
+.footer-right {
+    padding-right: 160px; 
+    width: 290px;
+    color: #D9DBE1;
+}
+
+@media only screen and (max-width: 640px) {
+    /* hero section */
+    .justify-content-center {
+        justify-content: center !important;
+        flex-direction: column;
+    }
+    .hero-description {
+        margin-top: 15px;
+        margin-bottom: 1rem;
+        width: 296px;
+    }
+    .hero-bike {
+        width: 375px;
+        margin-left: 20px;
+    }
+    .hero-left {
+        padding-left: 25px;
+    }
+    .hero-width {
+        width: 292px;
+        color: #E0E0E0;
+    }
+    .img-fluid {
+        max-width: 65%;
+        height: auto;
+    }
+
+    /* feature section */
+    .fetured-title {
+        font-size: 32px;
+        margin-top: 65px;
+    }
+    .feature-bike {
+        padding-right: 0px;
+        padding-left: 65px;
+        margin-top: 80px;
+        gap: 120px;
+        margin-right: 0px;
+    }
+    .img-fluid {
+        max-width: 65%;
+        height: auto;
+    }
+    
+    /* latest section */
+    .latest-container {
+        gap: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+    .latest-title {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+    .card {
+        width: 20rem;
+        margin-left: 55px;
+    }
+
+    /*frequently section  */
+    .frequently-contain {
+        padding-left: 38px;
+    }
+    .frequentiy-title {
+        font-size: 30px;
+        margin-top: 75px;
+        margin-bottom: 65px;
+        margin-left: 0px;
+    }
+    .frequentiy-img {
+        margin-left: 75px;
+    }
+    .frequently-width {
+        width: 315px;
+    }
+    .border-width {
+        width: 335px;
+        padding-left: 15px;
+        border: 1px solid #D5E5FB;
+    }
+    
+    /* footer section */
+    .footer-left {
+        padding-left: 25px;
+    }
 }
