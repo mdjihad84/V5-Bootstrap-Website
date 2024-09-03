@@ -5,105 +5,22 @@
     background-repeat: no-repeat;
     padding-bottom: 41rem;
 }
-.header-btn {
-    margin-right: 156px;
-    background-color: #E76F51;
-    margin-top: 42px;
-    margin-left: 100px;
-    width: 91px;
-    height: 44px;
-    border: none;
-}
-.navbar-nav {
-    margin-top: 42px;
-    gap: 36px;
-}
 .navbar-nav li a{
     font-weight: 500;
 }
 /*  fetured section */
-.fetured-title {
-    font-size: 48px;
-    margin-top: 64px;
-}
-.feature-description {
-    font-size: 14px;
-    color: #E76F51;
-    margin-bottom: -7px;
-}
-.feature-underline {
-    color: #E76F51;
-    width: 58.5px;
-}
 .bw-image {
     filter: grayscale(100%);
 }
-.feature-bike {
-    padding-left: 32px;
-    margin-top: 100px;
-    gap: 40px;
-}
-
-/* latest section */
-.latest-container {
-    gap: 20px;
-}
-.latest-title {
-    font-size: 48px;
-    margin-top: 100px;
-    margin-bottom: 47px;
-}
-.latest-width {
-    width: 268px;
-}
-.latest-btn {
-    width: 160px;
-    height: 57px;
-    border: none;
-    font-size: 18px;
-    margin-top: 15px;
-    background-color: #E76F51;
-}
-.latest-btn-outline {
-    width: 160px;
-    height: 57px;
-    font-size: 18px;
-    color: #E76F51;
-    background-color: transparent;
-    border: 1px solid;
-    border-color: #E76F51;
-    margin-top: 15px;
-}
-    
 /* happpy section */
-.happy-container  {
-    gap: 43px;
-}
-.happy-title {
-    margin-top: 130px;
-    margin-bottom: 52px;
-    font-size: 35px
-}
 .happy-description {
     width: 207px;
     margin-left: 30px;
     color: #6C6C6C;
 }
-
 /* frequently section */
-.frequently-contain {
-    margin-left: 20px;
-}
-.frequentiy-title {
-    font-size: 48px;
-    margin-top: 130px;
-    margin-bottom: 100px;
-}
 .text-orange {
     color: #E76F51;
-}
-.card-title {
-    font-size: 20px;
 }
 .card-description {
     width: 428px;
@@ -113,9 +30,6 @@
 .border-subtitle {
     font-size: 20px;
     color: #383838;
-}
-.frequentiy-img {
-    width: 431px;
 }
 .border-width {
     width: 490px;
