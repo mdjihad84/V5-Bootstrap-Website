@@ -1,13 +1,9 @@
 
-@font-face {
-    font-family: 'poppins';
-    src: url('./font/Poppins-ExtraBold.ttf');
-}
-
 /* header section */
-.bg-color {
-    background-color: #264653;
-    margin-right: -10px;
+.header-bg {
+    background-image: url('./images/others/new-bike.png');
+    background-repeat: no-repeat;
+    padding-bottom: 41rem;
 }
 .header-btn {
     margin-right: 156px;
@@ -25,24 +21,6 @@
 .navbar-nav li a{
     font-weight: 500;
 }
-
-/* Hero section */
-.hero-width{
-    width: 395px;
-    color: #E0E0E0;
-}
-.hero-right {
-    padding-right: 183px;
-    margin-top: 50px;
-}
-.hero-btn {
-    background-color: #E76F51;
-    border: none;
-}
-.hero-bike {
-    width: 100%;
-}
-
 /*  fetured section */
 .fetured-title {
     font-size: 48px;
@@ -69,8 +47,6 @@
 /* latest section */
 .latest-container {
     gap: 20px;
-    padding-left: ;
-    padding-right: ;
 }
 .latest-title {
     font-size: 48px;
@@ -139,38 +115,10 @@
     color: #383838;
 }
 .frequentiy-img {
-    width: 380px;
+    width: 431px;
 }
 .border-width {
     width: 490px;
     padding-left: 15px;
     border: 1px solid #D5E5FB;
-}
-
-/* footer section */
-.footer-right {
-    width: 300px;
-}
-.footer-img {
-    width: 150px;
-}
-.text-decoration {
-    display: flex !important;
-    gap: 10px;
-    margin-left: -30px;
-}
-.list-none {
-    display: inline-block;
-    list-style: none;
-}
-.text-decoration li a {
-    text-decoration: none;
-    color: #D9DBE1;
-}
-.text-decoration li {
-    list-style: none;
-}
-.footer-right {
-    width: 175px;
-    color: #D9DBE1;
 }
