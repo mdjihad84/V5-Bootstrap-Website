@@ -1,24 +1,15 @@
-
 /* header section */
 .header-bg {
-    background-image: url('./images/others/new-bike.png');
-    background-repeat: no-repeat;
     padding-bottom: 41rem;
+    background-size: cover;
+    background-image: url('./images/others/new-bike.png');"
 }
 .navbar-nav li a{
     font-weight: 500;
 }
-/*  fetured section */
 .bw-image {
     filter: grayscale(100%);
 }
-/* happpy section */
-.happy-description {
-    width: 207px;
-    margin-left: 30px;
-    color: #6C6C6C;
-}
-/* frequently section */
 .text-orange {
     color: #E76F51;
 }
